@@ -22,17 +22,17 @@
                 </a>
             </div>
 
-            <!-- <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
+            <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
                 <i class="mdi mdi-backburger"></i>
-            </button> -->
+            </button>
 
-            <!-- App Search-->
-            <!-- <form class="app-search d-none d-lg-block ml-4">
+
+            <form class="app-search d-none d-lg-block ml-4">
                 <div class="position-relative">
                     <input type="text" class="form-control" placeholder="Search...">
                     <span class="mdi mdi-magnify"></span>
                 </div>
-            </form> -->
+            </form>
         </div>
 
         <div class="d-flex">
@@ -69,8 +69,6 @@
                     <a class="dropdown-item" href="<?= base_url('auth/logout') ?>"><i class="mdi mdi-logout font-size-16 align-middle mr-1"></i> Logout</a>
                 </div>
             </div>
-
         </div>
     </div>
-
 </header>

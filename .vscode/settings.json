@@ -1,4 +1,5 @@
 {
-    "editor.formatOnSave": true,
-    "php.suggest.basic": false
+	"editor.formatOnSave": true,
+	"php.suggest.basic": false,
+	"eslint.run": "onSave",
 }
