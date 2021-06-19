@@ -123,6 +123,7 @@
                     dataType: 'JSON',
                     success: function(result) {
                         if (result.success) {
+                            console.log(result)
                             alert('Transaksi berhasil');
                             window.open('<?= base_url('transaksi/cetak/') ?>' + result.id_penjualan,
                                 '_blank')
